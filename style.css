@@ -1,3 +1,18 @@
-.days div {
-    width: calc(1rem / 7);
+.calendar {
+    width: 400px;
+}
+
+.weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.days div{
+    background-color: forestgreen
 }
