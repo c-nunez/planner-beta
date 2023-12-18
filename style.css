@@ -1,0 +1,3 @@
+.days div {
+    width: calc(1rem / 7);
+}
