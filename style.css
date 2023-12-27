@@ -1,5 +1,11 @@
+.stage {
+    max-width: 450px !important;
+    background-color: burlywood;
+}
+
 .calendar {
-    width: 400px;
+    max-width: 450px !important;
+    background-color: aqua;
 }
 
 .weekdays {
@@ -11,8 +17,16 @@
 .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    border: 1px;
 }
 
 .days div{
-    background-color: forestgreen
+    background-color: forestgreen;
+    height: 5rem;
+    max-width: 5rem;
+}
+
+.pairing-details {
+    background-color: aqua;
+    margin-top: 5px;
 }
