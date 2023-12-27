@@ -1,11 +1,10 @@
 .stage {
     max-width: 450px !important;
-    background-color: burlywood;
+    padding-top: 10px;
 }
 
 .calendar {
     max-width: 450px !important;
-    background-color: aqua;
 }
 
 .weekdays {
@@ -21,12 +20,11 @@
 }
 
 .days div{
-    background-color: aquamarine;
     height: 5rem;
     max-width: 5rem;
 }
 
 .pairing-details {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin-top: 5px;
 }
